@@ -1,0 +1,1 @@
+web: gunicorn best_idea.wsgi --log-file -
