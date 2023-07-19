@@ -1,3 +1,4 @@
+from django.conf import settings
 from mailchimp3 import MailChimp
 
 def subscribe_user_to_mailchimp(email):
